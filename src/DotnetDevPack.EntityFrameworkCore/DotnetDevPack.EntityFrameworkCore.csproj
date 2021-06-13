@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>Zhang_N_B</Authors>
+    <Description>DotnetDevPack.EntityFrameworkCore</Description>
+    <PackageDescription>DotnetDevPack.EntityFrameworkCore</PackageDescription>
+    <PackageProjectUrl>https://github.com/ZhangNanBin/DotnetDevPack.EntityFrameworkCore</PackageProjectUrl>
+    <PackageId>DotnetDevPack.EntityFrameworkCore</PackageId>
+    <PackageIcon>Icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/ZhangNanBin/DotnetDevPack.EntityFrameworkCore</RepositoryUrl>
+    <RepositoryType>Public</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.0-beta</Version>
+  </PropertyGroup>
+
+   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.7" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="5.0.0" />
+    <PackageReference Include="Oracle.EntityFrameworkCore" Version="5.21.1" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.7" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.7" />
+  </ItemGroup>
+
+   <ItemGroup>
+     <Folder Include="Configs\" />
+   </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\assets\Icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
