@@ -12,6 +12,7 @@
     <RepositoryUrl>https://github.com/ZhangNanBin/DotnetDevPack.EntityFrameworkCore</RepositoryUrl>
     <RepositoryType>Public</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageVersion>1.0.0-beta</PackageVersion>
     <Version>1.0.0-beta</Version>
   </PropertyGroup>
 
